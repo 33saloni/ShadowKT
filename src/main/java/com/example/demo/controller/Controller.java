@@ -32,6 +32,7 @@ import com.example.demo.ServiceMapper.IServiceMapper;
 
 
 @RestController
+@RequestMapping("/backend")
 public class Controller {
 	
 	Logger logger = LoggerFactory.getLogger(Controller.class);
